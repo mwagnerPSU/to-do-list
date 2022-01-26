@@ -4,6 +4,8 @@ The application gives the ability to add/remove task groups, add/remove tasks to
 Personal Comments/Thoughts:
 Currently, I'd like to make the tasks draggable? but thinking, in the future, when make the tasks sort by date, might not need that customization.
 
+Looks like garbage.
+
 Future additions:
 - Convert date field to correct date format to add ability of date sorting and upcoming date styles (ex. tasks within a week of current date are yellow, within a few days are red)
 - Use date field to create a "Today's Tasks" area, pulling all tasks from any group that are due today
