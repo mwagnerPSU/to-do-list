@@ -12,11 +12,13 @@ Future additions:
 
 ### Quickstart
 To get started:
-```npm install
+```
+npm install
 ```
 
 To run:
-```cd [folder path]
+```
+cd [folder path]
 node server.js
 ```
 Open index.js in browser
