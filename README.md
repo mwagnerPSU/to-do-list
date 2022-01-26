@@ -21,4 +21,5 @@ To run:
 cd [folder path]
 node server.js
 ```
-Open index.js in browser
+Open index.html in browser
+- Keep cmd with running server open for data to save to tasks.json
