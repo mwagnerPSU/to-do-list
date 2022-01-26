@@ -1,0 +1,73 @@
+body {
+    width: 90%;
+    padding: 20px;
+    /* background-color: #55C1FF; */
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.courseGroup {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid blue;
+    padding: 5px;
+    margin: 5px;
+}
+
+.courseHeader {
+    font-size: 20px;
+    width: auto;
+    max-width: 30%;
+}
+
+.taskGroup {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0px;
+}
+
+.singleTask {
+    display: flex;
+    justify-content: space-around;
+}
+
+.checkbox {
+    margin-top: 8px;
+}
+
+.taskName {
+    margin: 5px 0px;
+    width: 30%;
+}
+
+.taskDate {
+    margin: 5px 0px;
+    width: 30%;
+}
+
+button {
+    margin: 5px;
+    white-space: nowrap;
+    /* background-color: #102E4A;
+    color: white;
+    box-shadow: 10px white; */
+}
+
+.courseButtons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottomButton {
+    margin: 5px;
+    white-space: nowrap;
+    font-size: 20px;
+}
