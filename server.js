@@ -25,6 +25,14 @@ app.get('/getTasks', (req, res) => {
 
         let resData = JSON.parse(data);
 
+        resData.forEach(courseGroup => {
+            courseGroup.tasks.sort((a, b) => b.date < a.date ? 1 : -1);
+        });
+
+        fs.writeFile('tasks.json', JSON.stringify(resData), err => {
+            if (err) throw err;
+        });
+
         resData.forEach(res => {
             taskList.push(res);
         });
